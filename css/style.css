@@ -24,7 +24,11 @@ header {
     -o-border-radius: 5px;
     border: 0px;
 }
-
+main{
+    margin: 130px auto;
+    max-width: 1140px;
+}
+/* Styles for nav bar */
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -46,12 +50,20 @@ header {
     list-style: none;
     
 }
-.nav-menu li {
-    display: inline;
-    margin-right: 15px;
-    color: #474747;
-    font-size: 20px;
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-description{
+    text-align: center;
+    font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
 }
 
 /* Style for header banner */
@@ -96,3 +108,23 @@ header {
     font-weight: 700;
     padding: 18px 35px;
 }
+
+/* Styles for about me section */
+
+.about-me{
+    background: #FFF8F3;
+    padding: 130px 150px;
+}
+.section-info-container{
+    display: flex;
+    gap: 50px;
+}
+.section-info p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #474747;
+    text-align: center;
+
+}
+
